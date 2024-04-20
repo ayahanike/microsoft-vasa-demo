@@ -29,7 +29,30 @@
       <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">		
 <meta content="https://msvasa.pages.dev/teaser.jpg" prefix="og: http://ogp.me/ns#" property="og:image" />
     <link href="https://assets.onestore.ms/cdnfiles/external/mwf/long/v1/v1.25.0/css/mwf-west-european-default.min.css" rel="stylesheet" type="text/css" />
+<link
+        rel="stylesheet"
+        href="https://site-assets.fontawesome.com/releases/v6.5.2/css/all.css"
+      >
 
+      <link
+        rel="stylesheet"
+        href="https://site-assets.fontawesome.com/releases/v6.5.2/css/sharp-thin.css"
+      >
+
+      <link
+        rel="stylesheet"
+        href="https://site-assets.fontawesome.com/releases/v6.5.2/css/sharp-solid.css"
+      >
+
+      <link
+        rel="stylesheet"
+        href="https://site-assets.fontawesome.com/releases/v6.5.2/css/sharp-regular.css"
+      >
+
+      <link
+        rel="stylesheet"
+        href="https://site-assets.fontawesome.com/releases/v6.5.2/css/sharp-light.css"
+      >
     <style>
         body {
             margin: 0;
@@ -167,7 +190,38 @@
         </div>
         <div class="main-image">
 		<iframe width="100%" height="100%"  scrolling="no" frameborder="0" src="https://terabox.com/sharing/embed?surl=0rbomNDBBl0ioDEeQH1Elg&resolution=720&autoplay=true&mute=false&uk=4398175361793&fid=1064815559113832&slid=" allowfullscreen></iframe>
-		</div>
+		<br/>
+		<center><div class=share-icons>
+<a href="" onclick="shareToFacebook()"><i class="fa-brands fa-square-facebook"></i></a>
+  <a href="" onclick="shareToWhatsApp()"><i class="fa-brands fa-square-whatsapp"></i></a>
+  <a href="" onclick="shareToTelegram()"><i class="fa-lg fab fa-telegram"></i></a>
+  <a href="" onclick="shareToTwitter()"><i class="fa-brands fa-square-x-twitter"></i></a>
+      
+    </div></center>
+   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+<script>
+  function shareToFacebook() {
+    var url = "https://www.facebook.com/sharer.php?u=" + encodeURIComponent(window.location.href);
+    window.open(url, "_blank");
+  }
+
+  function shareToWhatsApp() {
+    var url = "https://api.whatsapp.com/send?text=" + encodeURIComponent(window.location.href);
+    window.open(url, "_blank");
+  }
+
+  function shareToTelegram() {
+    var url = "https://telegram.me/share/url?url=" + encodeURIComponent(window.location.href);
+    window.open(url, "_blank");
+  }
+
+  function shareToTwitter() {
+    var url = "https://twitter.com/intent/tweet?url=" + encodeURIComponent(window.location.href);
+    window.open(url, "_blank");
+  }
+</script>
+	</div>
 		
     </main>
     <div class="ref-content">
